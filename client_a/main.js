@@ -8,12 +8,12 @@ dotenv.config()
 const NAME = process.env.NAME
 const NUMBER = process.env.NUMBER
 
-const result = create(NAME, NUMBER)
+const result = message.create(NAME, NUMBER)
 
-fs.writeFile(result.getMaxListeners, result, (err) =>{
+fs.writeFile('result.txt', result, (err) => {
     if (err) {
-        console.error("ファイルの書き込みに失敗しました。", err)
-    }else{
-        console.log("書き込み成功！")
+        console.error("ファイルの書き込みに失敗しました。", err);
+    } else {
+        console.log("書き込み成功！");
     }
-})
+});
