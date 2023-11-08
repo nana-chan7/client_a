@@ -1,5 +1,5 @@
 // モジュール読み込み
-const message = require('./messagemessage')
+const message = require('./message')
 const dotenv = require('dotenv')
 const fs = require('fs')
 
