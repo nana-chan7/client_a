@@ -2,15 +2,13 @@
 const message = require('./messagemessage')
 const dotenv = require('dotenv')
 const fs = require('fs')
-const { create } = require('domain')
 
 dotenv.config()
-
 // dotenvの設定読み込み
 const NAME = process.env.NAME
 const NUMBER = process.env.NUMBER
 
-const result = create(name, number)
+const result = create(NAME, NUMBER)
 
 fs.writeFile(result.getMaxListeners, result, (err) =>{
     if (err) {
