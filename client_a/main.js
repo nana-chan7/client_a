@@ -17,3 +17,22 @@ fs.writeFile('result.txt', result, (err) => {
         console.log("書き込み成功！");
     }
 });
+
+
+// 2023-11-15 week8 試験問題解説
+// const dotenv = require('dotenv');
+// dotenv.config();
+// const fs = require('fs')
+// const message = require('./message');
+
+// var name = process.env.NAME
+// var number = process.env.NUMBER
+
+// console.log(result)
+
+// try {
+//     fs.writeFileSync()
+    
+// }
+
+
