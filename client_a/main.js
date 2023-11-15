@@ -20,19 +20,25 @@ fs.writeFile('result.txt', result, (err) => {
 
 
 // 2023-11-15 week8 試験問題解説
-// const dotenv = require('dotenv');
+
+// npm i fs
+
+// const dotenv = require('dotenv')
 // dotenv.config();
 // const fs = require('fs')
-// const message = require('./message');
+// const message = require('./message')
 
 // var name = process.env.NAME
 // var number = process.env.NUMBER
 
+// var result = message.create(name, number)
 // console.log(result)
 
 // try {
-//     fs.writeFileSync()
-    
+//     fs.writeFileSync('result.txt', result, 'utf8');
+//     console.log('ファイルが正常に書き出されました。');
+// } catch (err) {
+//     console.error(err);
 // }
 
 
